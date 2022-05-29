@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+.student2{
+//Fabrice ELONO PISETH 
+  //Page 2
+  // Fabrice ELONO PISETH
+  .preloader{
+    background: #000;
+    background-size: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .disappear{
+    animation: vanish 1s forwards;
+  }
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+}
+  
+.sec{
+  background-color: #dddd;
+  
+}
+.con h5{
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 3%;
+  text-shadow: 2px 2px 5px $section2-color;
+}
+.con  {
+  p{
+ box-sizing: border-box;
+ font-size: 20px;
+ width: 100%;
+ display: block;
+ margin-left: 10%;
+ padding-top: 3%;
+
+ 
+}
+.button1{
+  margin-left: 10%;
+  border: 2px solid #ddd;
+  background-color:$primary-color;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 5%;
+  
+  cursor: pointer;
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  &:hover {
+    background-color:$second;
+  }
+}
+
+}
+ 
+
+
+.con .img-sec {
+  img{
+    width: 30%;
+    height: auto;
+    float: right;
+    padding-top: 30px;
+    padding-right: 3%;
+    position: static;
+    margin-right: 5%;
+    
+  }
+}
+
+//section2
+.section2{
+  .cont{
+    background-color:$section2-color ;
+    .visit img{
+      height: auto;
+      width: 30%;
+      padding-left: 5%;
+      float: left;
+      position: static;
+    }
+    h5{
+      font-family: 'Kaushan Script', cursive;
+      font-size: 45px;
+      padding-right: 10%;
+      padding-top: 3%;
+      display: block;
+      text-align: center;
+      text-shadow: 2px 2px 5px white;
+      
+    }
+    p2{
+      box-sizing: border-box;
+      font-size: 20px;
+      width: 100%;
+      display: block;
+      padding-top: 3%;
+     text-align: center;
+      
+      
+    }
+  }
+
+ 
+}
+
+.section3{
+  .contt{
+    background-color: $section2-color;
+    padding-top: 3%;
+    .enjoy img{
+      height: auto;
+      width: 30%;
+      padding-left: 5%;
+      float: right;
+      padding-right: 5%;
+      padding-top: 5%;
+      position: static;
+      margin-right: 8%;
+  
+    }
+    
+    h5{font-family: 'Kaushan Script', cursive;
+        font-size: 45px;
+        padding-top: 8%;
+        padding-left: 10%;
+        text-shadow: 2px 2px 5px white;
+        }
+       
+  
+    p{
+        box-sizing: border-box;
+        font-size: 20px;
+        width: 100%;
+        display: block;
+        padding-left: 10%;
+        
+       
+        
+      }
+  }
+  
+  }
+
+  .section4{
+   
+    .conttt{
+      background-color:$section2-color ;
+      
+      
+      .share img{
+        height: auto;
+        width: 30%;
+        float: left;
+        padding-left: 5%;
+        padding-top: 6%;
+        position: static;
+      
+      }
+      h5{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 5%;
+        text-shadow: 2px 2px 5px white;
+        
+      }
+        
+        
+      
+      p{
+        box-sizing: border-box;
+        font-size: 20px;
+        width: 100%;
+        display: block;
+        padding-top: 3%;
+        text-align: center;
+        
+       
+       
+      }
+      }
+    }
+    //page1
+ .part1{
+   padding-top: 5%;
+   padding-left: 2%;
+   background-color: #ddd;
+   
+   .intro-image{
+     padding-right: 10%;
+    
+     img{
+       height: auto;
+       width: 30%;
+       float: right;
+       padding-right: 5%;
+       
+     }
+   
+ }
+ .texting{
+   h1{
+     text-align: center;
+     font-family: 'Cinzel Decorative', cursive;
+     width: 100%;
+     font-size: 50px;
+     
+   }
+   h2{
+     padding-top: 2%;
+     width: 100%;
+     text-shadow: 2px 2px 5px $section2-color;
+   }
+   p{display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    
+
+   }
+ }
+ .button{
+  margin-top: 30px;
+  padding-left: 5%;
+   a{
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 1.5;
+    &:hover{
+      background-color: #a52a2a;
+     }
+   }
+  
+ }
+ .socialmedia{
+  padding-top: 40px;
+  padding-left: 5%;
+  
+  i{
+    color: rgb(112, 36, 36);
+    font-size: 30px;
+    padding: 8px 10px;
+   &:hover{
+    color: #3d3d3d;
+   }
+  }
+ }
+}
+
+.part2{
+  padding-top: 3%;
+  width: 100%;
+  min-height: 100vh;
+    background-color: rgb(234, 187, 18);
+   padding: auto;
+   justify-content: center;
+  
+  .mid{
+    h3{
+      text-align: center;
+      width: 100%;
+    }
+    p{
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  }
+}
+.part3{
+  .container3{
+    padding-top:2%;
+    h1{text-align: center;
+      padding-bottom: 1%;
+      font-size: 50px;
+      text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+      a{
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        font-family: $heading;
+        
+        &:hover{
+          color: white;
+        }
+      }
+    }
+  }
+}
+//part 4 slide show
+.carousel{
+  .carousel-inner{
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    padding-left: 25%;
+  }
+  .carousel-control-prev{
+    padding-left: 50%;
+    
+  }
+}
+//card for brussels 
+.card{
+  img{
+
+  }
+  .card-im-overlay{
+    
+    .card-title{
+      color: #ddd;
+
+    }
+    .card-text{
+      box-sizing: border-box;
+      display: block;
+    }
+  }
+}
+
+
+
+//Editing with Javascripts
+
+
+span {
+  opacity: 0;
+  transition: all 1s ease;
+  
+}
+span.fade{
+  opacity: 1;
+  color: whitesmoke;
+ 
+}
+
+@media screen and (max-width:768px) {
+  .part1{
+    background-color:rgb(102, 98, 98);
+    .intro-image{
+      padding-left: 3%;
+      img{
+        float: none;
+        width: 100%;
+        align-items: center;
+        margin: auto;
+      }
+    }
+    .texting{
+      h1{
+        float: left;
+        display: block;
+        text-align: left;
+        font-size: 30px;
+  
+      }
+    }
+    h2{
+      font-size: 25px;
+      color: $section2-color;
+      width: 100%;
+    }
+    p{
+      display: block;
+      margin: auto;
+      width: 100%;
+      height: auto;
+      color: white;
+    }
+    .button{
+      
+     a{
+       color:black ;
+       background-color:$section2-color;
+       &:hover{
+         background-color:$hover-color;
+       }
+     }
+    }
+    .socialmedia{
+      a{
+        i{
+          color: $section2-color;
+          border: #3d3d3d;
+        }
+      }
+    }
+  }
+
+   
+ 
+  //page2
+  .sec{
+    .con{
+      .img-sec{
+        img{
+          float: none;
+          width: 60%;
+          
+        }
+      }
+      h5{
+        display: block;
+        margin: auto;
+        padding-top: 10%;
+      }
+      p{
+        width: 100%;
+        display: block;
+        margin:auto;
+      }
+      .button1{
+        align-items: center;
+        float: none;
+        justify-content: center;
+        justify-items: center;
+        a{
+          display: block;
+          justify-content: center;
+        justify-items: center;
+        }
+      }
+    }
+  }
+  .section2{
+    .cont{
+      background-color:#B3E5B3 ;
+      .visit img{
+        height: auto;
+        width: 60%;
+        padding-left: 5%;
+        float: none;
+        position: static;
+      }
+      h5{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 45px;
+        padding-right: 10%;
+        padding-top: 3%;
+        display: block;
+        text-align: center;
+        
+      }
+      p2{
+        box-sizing: border-box;
+        font-size: 20px;
+        width: 100%;
+        display: block;
+        padding-top: 3%;
+        
+        
+      }
+    }
+
+  
+}
+.section3{
+  .contt{
+    background-color: white;
+    padding-top: 3%;
+    .enjoy img{
+      height: auto;
+      width: 60%;
+      padding-left: 5%;
+      float: none;
+      padding-right: 5%;
+      padding-top: 5%;
+      position: static;
+  
+    }
+    
+    h5{font-family: 'Kaushan Script', cursive;
+        font-size: 45px;
+        padding-top: 8%;
+        padding-left: 10%;
+        }
+       
+  
+    p{
+        box-sizing: border-box;
+        font-size: 20px;
+        width: 100%;
+        display: block;
+        padding-left: 10%;
+        
+       
+        
+      }
+  }
+  
+  }
+
+  .section4{
+    .conttt{
+      background-color:$section2-color ;
+      
+      .share img{
+        height: auto;
+        width: 60%;
+        float: none;
+        padding-left: 5%;
+        padding-top: 5%;
+        position: static;
+      
+      }
+      h5{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 5%;
+        
+      }
+        
+        
+      
+      p{
+        box-sizing: border-box;
+        font-size: 20px;
+        width: 100%;
+        display: block;
+        padding-top: 3%;
+       
+      }
+      }
+    }
+
+}
+
+
+}
